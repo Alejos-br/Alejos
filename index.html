@@ -16,13 +16,13 @@ font-family:'Segoe UI',sans-serif;
 }
 
 body{
-background:#f5f5f5;
+background:linear-gradient(135deg,#dbeafe,#e0f2fe,#ede9fe);
 color:#333;
 line-height:1.8;
 }
 
 .container{
-max-width:1000px;
+max-width:1100px;
 margin:40px auto;
 padding:20px;
 }
@@ -31,44 +31,94 @@ padding:20px;
 background:white;
 padding:35px;
 margin-bottom:30px;
-border-radius:15px;
-box-shadow:0 3px 12px rgba(0,0,0,.08);
+border-radius:20px;
+box-shadow:0 8px 20px rgba(0,0,0,.12);
+transition:.3s;
+}
+
+.blog-post:hover{
+transform:translateY(-5px);
+}
+
+.blog-post:nth-child(1){
+border-left:8px solid #2563eb;
+}
+
+.blog-post:nth-child(2){
+border-left:8px solid #16a34a;
+}
+
+.blog-post:nth-child(3){
+border-left:8px solid #f97316;
+}
+
+.blog-post:nth-child(4){
+border-left:8px solid #dc2626;
+}
+
+.blog-post:nth-child(5){
+border-left:8px solid #7c3aed;
+}
+
+.blog-post:nth-child(6){
+border-left:8px solid #0891b2;
+}
+
+.blog-post:nth-child(7){
+border-left:8px solid #eab308;
 }
 
 h1{
+font-size:2.8rem;
 color:#1e3a8a;
-margin-bottom:20px;
-font-size:2.2rem;
+margin-bottom:15px;
+text-align:center;
 }
 
 h2{
 color:#2563eb;
 margin-bottom:15px;
-margin-top:15px;
+}
+
+h3{
+color:#1e40af;
+margin-bottom:10px;
 }
 
 .fecha{
-color:#777;
-font-size:0.9rem;
+text-align:center;
+color:#666;
 margin-bottom:20px;
+}
+
+ul{
+margin-left:25px;
 }
 
 img{
 width:100%;
-border-radius:12px;
-margin-top:15px;
-box-shadow:0 3px 10px rgba(0,0,0,.15);
+border-radius:15px;
+margin-top:20px;
+box-shadow:0 5px 15px rgba(0,0,0,.15);
+transition:.3s;
+}
+
+img:hover{
+transform:scale(1.02);
 }
 
 footer{
 text-align:center;
 padding:30px;
-color:#666;
-font-size:14px;
+color:#555;
+font-size:15px;
 }
 
-ul{
-margin-left:25px;
+.destacado{
+background:#eff6ff;
+padding:15px;
+border-radius:10px;
+margin-top:15px;
 }
 
 </style>
@@ -81,65 +131,63 @@ margin-left:25px;
 
 <div class="blog-post">
 
-<h1>Mi Blog Personal - José Alejandro Bedoya</h1>
+<h1>💻 Blog Personal de José Alejandro Bedoya</h1>
 
-<p class="fecha">Publicado en 2026</p>
-
-<p>
-Bienvenidos a mi espacio personal en la web. Este blog ha sido creado para compartir información relacionada con las Tecnologías de la Información y la Comunicación (TIC), así como algunos de los conocimientos adquiridos durante mi proceso de formación.
+<p class="fecha">
+🌐 Herramientas TIC • Aprendizaje Digital • Innovación Tecnológica
 </p>
 
 <p>
-A través de este sitio web deseo mostrar la importancia que tienen las herramientas tecnológicas en la educación, el trabajo y la vida cotidiana.
+Bienvenidos a mi espacio personal en la web. Este blog ha sido creado como parte de mi proceso de formación para compartir conocimientos relacionados con las Tecnologías de la Información y la Comunicación (TIC) y mostrar algunas de las actividades desarrolladas durante mi aprendizaje.
+</p>
+
+<div class="destacado">
+Este sitio web representa una oportunidad para aplicar competencias digitales y compartir información de manera organizada y accesible para todos los visitantes.
+</div>
+
+</div>
+
+<div class="blog-post">
+
+<h2>👨 Sobre mí</h2>
+
+<p>
+Mi nombre es José Alejandro Bedoya. Soy una persona interesada en el aprendizaje continuo, la tecnología y el fortalecimiento de habilidades digitales que contribuyan a mi crecimiento personal y profesional.
+</p>
+
+<p>
+Me gusta aprender nuevas herramientas tecnológicas y explorar diferentes formas de utilizar las TIC para mejorar la comunicación, el acceso al conocimiento y el desarrollo de proyectos.
 </p>
 
 </div>
 
 <div class="blog-post">
 
-<h2>Sobre mí</h2>
+<h2>📱 ¿Qué son las TIC?</h2>
 
 <p>
-Mi nombre es José Alejandro Bedoya. Soy una persona interesada en el aprendizaje continuo, la tecnología y el desarrollo de habilidades digitales que contribuyan a mi crecimiento personal y profesional.
+Las Tecnologías de la Información y la Comunicación son un conjunto de herramientas tecnológicas que permiten crear, almacenar, procesar y compartir información mediante dispositivos y plataformas digitales.
 </p>
 
-<p>
-Considero que las TIC son una herramienta fundamental para acceder a la información, fortalecer la comunicación y mejorar los procesos de aprendizaje.
-</p>
-
-</div>
-
-<div class="blog-post">
-
-<h2>¿Qué son las TIC?</h2>
-
-<p>
-Las Tecnologías de la Información y la Comunicación (TIC) son un conjunto de herramientas tecnológicas que permiten crear, almacenar, procesar y compartir información a través de medios digitales.
-</p>
-
-<p>
-Actualmente las TIC hacen parte de nuestra vida diaria y facilitan múltiples actividades tanto en el ámbito académico como laboral.
-</p>
-
-<h3>Principales beneficios</h3>
+<h3>Beneficios de las TIC</h3>
 
 <ul>
-<li>Facilitan la comunicación.</li>
-<li>Permiten el aprendizaje virtual.</li>
-<li>Favorecen el trabajo colaborativo.</li>
-<li>Mejoran la productividad.</li>
-<li>Facilitan el acceso a la información.</li>
-<li>Impulsan la innovación tecnológica.</li>
+<li>✅ Facilitan la comunicación.</li>
+<li>✅ Permiten el aprendizaje virtual.</li>
+<li>✅ Mejoran la productividad.</li>
+<li>✅ Favorecen el trabajo colaborativo.</li>
+<li>✅ Facilitan el acceso a la información.</li>
+<li>✅ Impulsan la innovación tecnológica.</li>
 </ul>
 
 </div>
 
 <div class="blog-post">
 
-<h2>Comic sobre las TIC</h2>
+<h2>🎭 Comic sobre las TIC</h2>
 
 <p>
-La siguiente historieta representa la importancia de las Tecnologías de la Información y la Comunicación en diferentes actividades de la vida cotidiana.
+La siguiente historieta representa la importancia de las Tecnologías de la Información y la Comunicación en la vida cotidiana, mostrando cómo ayudan en el estudio, el trabajo y la comunicación.
 </p>
 
 <img src="comic.png" alt="Comic TIC">
@@ -148,10 +196,10 @@ La siguiente historieta representa la importancia de las Tecnologías de la Info
 
 <div class="blog-post">
 
-<h2>Mapa Mental de las Herramientas TIC</h2>
+<h2>🧠 Mapa Mental de las Herramientas TIC</h2>
 
 <p>
-Este mapa mental organiza los conceptos principales relacionados con las Tecnologías de la Información y la Comunicación, mostrando sus categorías, aplicaciones y beneficios.
+Este mapa mental permite visualizar de forma organizada los conceptos principales relacionados con las TIC, sus categorías y los beneficios que aportan a la sociedad.
 </p>
 
 <img src="mapa-mental.png" alt="Mapa Mental TIC">
@@ -160,14 +208,37 @@ Este mapa mental organiza los conceptos principales relacionados con las Tecnolo
 
 <div class="blog-post">
 
-<h2>Importancia de las TIC</h2>
+<h2>📚 Actividades Realizadas</h2>
 
 <p>
-Las Tecnologías de la Información y la Comunicación son fundamentales para el desarrollo académico, personal y profesional. Gracias a ellas es posible acceder al conocimiento, comunicarse de manera inmediata y aprovechar nuevas oportunidades de aprendizaje.
+Durante esta etapa del proceso formativo desarrollé diferentes actividades relacionadas con el uso de las Tecnologías de la Información y la Comunicación.
+</p>
+
+<ul>
+<li>✅ Elaboración de una caja de herramientas digitales.</li>
+<li>✅ Construcción de un mapa mental sobre las TIC.</li>
+<li>✅ Creación de un comic relacionado con las TIC.</li>
+<li>✅ Diseño y publicación de un sitio web personal.</li>
+<li>✅ Uso de herramientas digitales para compartir información.</li>
+<li>✅ Fortalecimiento de competencias digitales para el aprendizaje.</li>
+</ul>
+
+<p>
+Estas actividades me permitieron comprender la importancia de las TIC en los ámbitos educativos, laborales y personales, además de fortalecer mis habilidades para la creación y publicación de contenidos digitales.
+</p>
+
+</div>
+
+<div class="blog-post">
+
+<h2>🚀 Importancia de las TIC en mi Formación</h2>
+
+<p>
+Las TIC son herramientas fundamentales para el desarrollo académico y profesional. Gracias a ellas es posible acceder a información de manera rápida, comunicarse con otras personas y adquirir nuevos conocimientos a través de plataformas digitales.
 </p>
 
 <p>
-El uso adecuado de las TIC permite fortalecer las competencias digitales y adaptarse a los cambios tecnológicos que exige la sociedad actual.
+La elaboración de este proyecto me permitió fortalecer mis competencias tecnológicas y comprender cómo las herramientas digitales pueden utilizarse de manera responsable para compartir información y generar nuevos espacios de aprendizaje.
 </p>
 
 </div>
@@ -175,7 +246,7 @@ El uso adecuado de las TIC permite fortalecer las competencias digitales y adapt
 </div>
 
 <footer>
-© 2026 - Blog Personal de José Alejandro Bedoya
+© 2026 | Blog Personal de José Alejandro Bedoya
 </footer>
 
 </body>
